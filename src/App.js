@@ -1,23 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import DemoState from './components/DemoState';
+import DemoRef from './components/DemoRef';
+import DemoMemo from './components/DemoMemo';
+import DemoState1 from './baitap12_15/DemoState1';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DemoState1 />
     </div>
   );
 }
